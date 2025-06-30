@@ -3,6 +3,7 @@ import {Hero} from "@/components/sections/Hero";
 import {OurFirm} from "@/components/sections/OurFirm";
 import {ProjectCard} from "@/components/shared/ProjectCard";
 import {ProjectCardsData} from "@/data/ProjectCardsData";
+import {OurProcess} from "@/components/sections/OurProcess";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                 imageURL={ProjectCardsData[0].imageURL}
                 className={ProjectCardsData[0].className}
             />
+            <OurProcess />
         </>
     );
 }
