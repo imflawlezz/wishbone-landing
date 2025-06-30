@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const OurProcess = () => {
     return (
-        <section className="flex flex-col items-center justify-center gap-10 p-8 text-center">
+        <section className="flex flex-col items-center justify-center gap-10 p-8 md:py-16 lg:py-24 text-center">
             <div className="flex flex-col items-center justify-center gap-4">
                 <h2 className="text-sm text-[var(--paragraph-secondary)] uppercase">
                     Our process
