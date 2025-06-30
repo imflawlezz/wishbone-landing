@@ -13,7 +13,7 @@ export const OurFirm = () => {
                 </h1>
             </div>
 
-            <div className="flex flex-col gap-4 w-full md:max-w-xl text-sm md:text-base">
+            <div className="flex flex-col gap-5 w-full md:max-w-xl text-sm md:text-base">
                 {OurFirmParagraphs.map((text, index) => (
                     <motion.p
                         key={index}
