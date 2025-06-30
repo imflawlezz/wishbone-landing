@@ -10,8 +10,9 @@ export const ProjectCard = ({
     className
 }: ProjectCardProps) => {
     return (
-        <section className={`relative ${className} w-full h-[320px] md:h-[480px] lg:h-[600px]
-        flex flex-row justify-end items-center px-18
+        <section className={`relative ${className} w-full
+        h-[320px] md:h-[480px] lg:h-[600px]
+        flex flex-row justify-end items-center px-6 md:px-18
         bg-gray-500/50 text-white md:bg-transparent`}>
             <div className="absolute inset-0 -z-10 h-full w-full">
                 <Image
@@ -31,7 +32,7 @@ export const ProjectCard = ({
                     delay: 0.1
                 }}
                 viewport={{ once: false, amount: 0.2 }}
-                className="flex flex-col max-w-[290px] items-start gap-1"
+                className="flex flex-col max-w-[200px] md:max-w-[290px] items-start gap-1"
             >
                 <p className="text-sm font-medium md:text-[var(--paragraph)] uppercase tracking-wider">
                     {label}
