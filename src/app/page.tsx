@@ -18,6 +18,12 @@ export default function Home() {
                 className={ProjectCardsData[0].className}
             />
             <OurProcess />
+            <ProjectCard
+                label={ProjectCardsData[1].label}
+                description={ProjectCardsData[1].description}
+                imageURL={ProjectCardsData[1].imageURL}
+                className={ProjectCardsData[1].className}
+            />
         </>
     );
 }
