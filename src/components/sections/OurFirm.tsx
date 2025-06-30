@@ -24,7 +24,7 @@ export const OurFirm = () => {
                             ease: 'easeOut',
                             delay: 0.1 * index
                         }}
-                        viewport={{ once: false, amount: 0.2 }}
+                        viewport={{ once: false, amount: 0.5 }}
                     >
                         {text}
                     </motion.p>

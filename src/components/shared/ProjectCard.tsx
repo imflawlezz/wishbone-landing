@@ -31,7 +31,7 @@ export const ProjectCard = ({
                     ease: 'easeOut',
                     delay: 0.1
                 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.5 }}
                 className="flex flex-col max-w-[200px] md:max-w-[290px] items-start gap-1"
             >
                 <p className="text-sm font-medium md:text-[var(--paragraph)] uppercase tracking-wider">
