@@ -13,7 +13,7 @@ export const LinkComponent = ({
         : "relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[var(--foreground)] after:transition-all after:duration-350 after:delay-50 hover:after:w-full";
 
     return (
-        <div className={`${className} md:text-sm lg:text-base text-center`}>
+        <div className={`${className} md:text-sm lg:text-base`}>
             <Link
                 href={`/${href}`}
                 onClick={onClick}

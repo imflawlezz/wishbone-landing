@@ -12,7 +12,7 @@ export const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="relative z-50 bg-[var(--background)] px-6 md:px-12 lg:px-36 flex justify-between items-center h-16 md:h-auto">
+        <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--background)] px-6 md:px-12 lg:px-36 flex justify-between items-center h-16 md:h-auto">
             <div>
                 <Image
                     src={resolveAsset("logos", "wishbone-logo.svg")}
