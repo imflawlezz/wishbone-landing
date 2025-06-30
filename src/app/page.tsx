@@ -4,6 +4,7 @@ import {OurFirm} from "@/components/sections/OurFirm";
 import {ProjectCard} from "@/components/shared/ProjectCard";
 import {ProjectCardsData} from "@/data/ProjectCardsData";
 import {OurProcess} from "@/components/sections/OurProcess";
+import {PriorClients} from "@/components/sections/PriorClients";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
                 imageURL={ProjectCardsData[1].imageURL}
                 className={ProjectCardsData[1].className}
             />
+            <PriorClients />
         </>
     );
 }
