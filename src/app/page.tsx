@@ -26,6 +26,12 @@ export default function Home() {
                 className={ProjectCardsData[1].className}
             />
             <PriorClients />
+            <ProjectCard
+                label={ProjectCardsData[2].label}
+                description={ProjectCardsData[2].description}
+                imageURL={ProjectCardsData[2].imageURL}
+                className={ProjectCardsData[2].className}
+            />
         </>
     );
 }
