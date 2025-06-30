@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wishbone Landing Page Clone
 
-## Getting Started
+This is a responsive landing page recreated based on a design found on the web.  
+**All design rights belong to their respective owners.** This project was created for educational and portfolio purposes only.
 
-First, run the development server:
+> ⚠️ Currently, only the **homepage** is implemented. Other features and sections are under development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔨 Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/) for deployment
+
+## 📦  Structure
+
+This project follows a clean file structure to improve maintainability and scalability:
+
+```
+wishbone-landing
+├── public
+│   └── assets          # Static image assets
+├── src
+│   ├── app
+│   ├── components
+│   │   ├── sections    # Modular components representing layout sections
+│   │   └── shared      # Reusable shared components
+│   ├── data            # Static data and constants
+│   ├── types           # TypeScript type definitions
+│   └── utils           # Utility functions
+├── package.json
+├── .gitignore
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 [View Live on Vercel](https://wishbone-landing.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📷 Preview
 
-## Learn More
+> Page is in development, so no preview images are available
 
-To learn more about Next.js, take a look at the following resources:
+## 🧑‍💻 What I Practiced
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Layout replication
+- Responsive design techniques (mobile-first)
+- Component-based structure with Next.js
+- Utility-first CSS styling with Tailwind
+- Hosting and continuous deployment via Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚠️ Disclaimer
 
-## Deploy on Vercel
+> I do not claim any rights to the original design.  
+> This is a **non-commercial project** intended solely to demonstrate my frontend development skills.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 How to Run Locally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git clone https://github.com/imflawlezz/wishbone-landing.git
+cd wishbone-landing
+npm install
+npm run dev
+```
+
+> Developed with ❤️ by [imflawlezz](https://github.com/imflawlezz)
