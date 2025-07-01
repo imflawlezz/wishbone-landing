@@ -8,6 +8,7 @@ import {PriorClients} from "@/components/sections/PriorClients";
 import {FeaturedProjects} from "@/components/sections/FeaturedProjects";
 import {Team} from "@/components/sections/Team";
 import {GetInTouch} from "@/components/sections/GetInTouch";
+import {Footer} from "@/components/sections/Footer";
 
 export default function Home() {
     return (
@@ -38,6 +39,7 @@ export default function Home() {
             <FeaturedProjects />
             <Team />
             <GetInTouch/>
+            <Footer />
         </>
     );
 }
