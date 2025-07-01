@@ -5,6 +5,7 @@ import {ProjectCard} from "@/components/shared/ProjectCard";
 import {ProjectCardsData} from "@/data/ProjectCardsData";
 import {OurProcess} from "@/components/sections/OurProcess";
 import {PriorClients} from "@/components/sections/PriorClients";
+import {FeaturedProjects} from "@/components/sections/FeaturedProjects";
 
 export default function Home() {
     return (
@@ -32,6 +33,7 @@ export default function Home() {
                 imageURL={ProjectCardsData[2].imageURL}
                 className={ProjectCardsData[2].className}
             />
+            <FeaturedProjects />
         </>
     );
 }
