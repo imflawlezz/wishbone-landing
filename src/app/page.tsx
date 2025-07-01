@@ -6,6 +6,7 @@ import {ProjectCardsData} from "@/data/ProjectCardsData";
 import {OurProcess} from "@/components/sections/OurProcess";
 import {PriorClients} from "@/components/sections/PriorClients";
 import {FeaturedProjects} from "@/components/sections/FeaturedProjects";
+import {Team} from "@/components/sections/Team";
 
 export default function Home() {
     return (
@@ -34,6 +35,7 @@ export default function Home() {
                 className={ProjectCardsData[2].className}
             />
             <FeaturedProjects />
+            <Team />
         </>
     );
 }
