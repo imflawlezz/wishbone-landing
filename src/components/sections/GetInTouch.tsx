@@ -1,6 +1,5 @@
 'use client';
 import {LinkComponent} from "@/components/shared/LinkComponent";
-import { motion } from "motion/react";
 
 export const GetInTouch = () => {
     return (
@@ -12,21 +11,11 @@ export const GetInTouch = () => {
                     Get In Touch
                 </h2>
 
-                <motion.h1
+                <h1
                     className="text-4xl md:max-w-lg"
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{
-                        type: "spring",
-                        duration: 1,
-                        stiffness: 300, damping: 16.9,
-                        ease: 'easeInOut',
-                        delay: 0.1
-                    }}
-                    viewport={{ once: false, amount: 1 }}
                 >
                     Think we would be a good fit for your next project?
-                </motion.h1>
+                </h1>
             </div>
             <LinkComponent label={"Get in touch"}/>
         </section>
