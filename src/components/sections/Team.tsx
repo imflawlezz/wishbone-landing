@@ -16,9 +16,10 @@ export const Team = () => {
                 </h1>
 
                 <p className="">
-                    At Wishbone+Partners, our greatest reward is the satisfaction of those we’ve had the privilege to
-                    work with. From private homeowners to visionary developers, our clients’ trust inspires us to push
-                    the boundaries of design.
+                    From seasoned industry leaders to emerging talents, our team thrives on collaboration, blending
+                    expertise with fresh ideas. We believe great architecture is born not just from skill, but from
+                    listening, adapting, and pushing boundaries together. This is the heart of our practice—where
+                    individual strengths combine to create something extraordinary.
                 </p>
                 
                 <LinkComponent label={"See team"} className="mt-6"/>
