@@ -7,6 +7,7 @@
   --hover: #454343;
   --background-hero: #ECE7E4;
   --background-touch: #CEC4BC;
+  --background-featured: #F7F7F7;
   --paragraph: #403E3B;
   --paragraph-secondary: #645C55;
   --font-poppins: #{poppins.style.fontFamily};
