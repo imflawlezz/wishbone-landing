@@ -33,7 +33,7 @@ export const Team = () => {
                         transition={{
                             duration: 0.5,
                             ease: 'easeOut',
-                            delay: 0.1
+                            delay: 0.02 * index,
                         }}
                         viewport={{ once: false, amount: 0.5 }}
                         className=""
