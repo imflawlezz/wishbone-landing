@@ -10,7 +10,7 @@ export const TeamMemberCard = ({
 }:TeamMemberCardProps) => {
     return (
         <div className={`${className} flex flex-row items-center gap-7`}>
-            <div className="w-20 h-20 relative rounded-full overflow-hidden shadow-lg border-[3px] border-[var(--background-touch)]">
+            <div className="w-15 h-15 lg:h-20 lg:w-20 relative rounded-full overflow-hidden shadow-lg border-[3px] border-[var(--background-touch)]">
                 <Image
                     src={imageURL}
                     alt={`${firstName} ${lastName} profile image`}
