@@ -38,7 +38,12 @@ wishbone-landing
 
 ## 📷 Preview
 
-> Page is in development, so no preview images are available
+![Screenshot](/public/preview-1.jpeg)
+![Screenshot](/public/preview-2.jpeg)
+![Screenshot](/public/preview-3.jpeg)
+![Screenshot](/public/preview-4.jpeg)
+![Screenshot](/public/preview-5.jpeg)
+![Screenshot](/public/preview-6.jpeg)
 
 ## 🧑‍💻 What I Practiced
 
