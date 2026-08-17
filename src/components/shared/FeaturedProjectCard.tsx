@@ -31,7 +31,7 @@ export const FeaturedProjectCard = ({
     return (
         <div
             ref={containerRef}
-            className={`relative overflow-hidden ${className} w-full md:max-w-sm h-[360px] lg:h-[460px]`}
+            className={`relative overflow-hidden ${className} w-full min-w-0 h-[360px] md:h-[400px] lg:h-[480px] xl:h-[540px]`}
             onMouseEnter={() => !isMobile && setIsHovered(true)}
             onMouseLeave={() => !isMobile && setIsHovered(false)}
         >

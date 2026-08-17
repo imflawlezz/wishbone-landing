@@ -12,17 +12,17 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className="flex flex-col md:w-1/2 gap-5 p-8 md:px-10 lg:px-25"
+                className="flex flex-col md:w-1/2 gap-5 px-6 py-8 md:px-10 lg:px-16 xl:px-20"
             >
                 <p className="uppercase text-sm text-[var(--paragraph-secondary)]">
                     Wishbone+Partners
                 </p>
 
-                <h1 className="text-[var(--foreground)] text-4xl md:text-5xl lg:text-6xl">
+                <h1 className="text-[var(--foreground)] text-4xl md:text-5xl lg:text-6xl max-w-xl">
                     The home of beautiful architecture.
                 </h1>
 
-                <p className="text-[var(--paragraph)]">
+                <p className="text-[var(--paragraph)] max-w-lg">
                     We are an architecture firm with a focus on beautiful but functional design.
                     At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work.
                     Read more about our previous projects, our process and our team below.
